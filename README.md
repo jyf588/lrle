@@ -6,9 +6,12 @@ https://arxiv.org/abs/1904.13041
 ## Environments:
 To run data generation, you will need a Matlab environment with OpenSim and IPOPT packages installed:
 
-1. Install the Opensim library and set up its Matlab scripting environment: (The current version of code uses OpenSim 3.3, which is only supported on Windows. Consider installing a Windows 7 virtual machine. Give the VM multiple cores of CPU.)
-    1.1 Download and install OpenSim 3.3. Installation Guide: https://simtk-confluence.stanford.edu:8443/display/OpenSim33/Installing+OpenSim
-    1.2 Configure Matlab Scripting Environment: https://simtk-confluence.stanford.edu:8443/display/OpenSim33/Scripting+with+Matlab 
+1. Install the Opensim library and set up its Matlab scripting environment (The current version of code uses OpenSim 3.3, which is only supported on Windows. Consider installing a Windows 7 virtual machine. Give the VM multiple cores of CPU.):
+
+1.1 Download and install OpenSim 3.3. Installation Guide: https://simtk-confluence.stanford.edu:8443/display/OpenSim33/Installing+OpenSim
+
+1.2 Configure Matlab Scripting Environment: https://simtk-confluence.stanford.edu:8443/display/OpenSim33/Scripting+with+Matlab 
+
 2. Install IPOPT package in Matlab: Download this file: www.coin-or.org/download/binary/Ipopt/Ipopt-3.11.3-win32win64-matlabmexfiles.zip , unzip it and place the folder to some good place,  open Matlab, run addpath('D:/where-you-put-ipopt-folder') and then savepath.
 
 To run Neural Net training, you will need a Python environment with keras (tensorflow), numpy, and scipy installed.
